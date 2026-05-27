@@ -57,7 +57,7 @@ print(min(1.0, target/total))
   >>>
 
   runtime {
-    docker: "biocontainers/samtools:v1.21-1-deb_cv1"
+    docker: "biocontainers/samtools:v1.9-4-deb_cv1"
     memory: "16G"
     cpu: 8
     disks: "local-disk 200 SSD"
